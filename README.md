@@ -62,14 +62,16 @@ Before we start, we need to understand some points here:
 - The inputs are transferred to the backend layer, which is our python code. This backend layer controls the flow, processes the outputs, and the content to be displayed on the screen.
 Here, Object-Oriented Programming is highly used and most of the programming will be done using this concept so if you are lacking in this then I would suggest you follow this awesome tutorial on [Python Object Oriented Programming (OOP)](https://www.youtube.com/watch?v=ZDa-Z5JzLYM&list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)
 
-5. E-portfolio Evidence: Just focus on finishing the step-by-step and running your app in your local setup. Then, write a short 500-1000 word reflection on the course, what you learned, if you managed to run your app, how was it, if you didn’t, why? And this, accompanied by screenshots of your local setup with the app. 
+5. In the WORKSHOP-LESSON folder, you can find the lessons where we go step by step to build your own android app, as shown in the live session.  
+
+6. E-portfolio Evidence: Just focus on finishing the step-by-step and running your app in your local setup. Then, write a short 500-1000 word reflection on the course, what you learned, if you managed to run your app, how was it, if you didn’t, why? And this, accompanied by screenshots of your local setup with the app. 
 
 
 
 <br><br>
 
-#### Course Instructor: [Graciela Carrillo](mailto:graciela.carrillo@kaplan.com?subject=[Intro_Python]%20Source%20Han%20Sans)
-#### Module Coordinator: [Dr. Molly Huq](mailto:graciela.carrillo@kaplan.com?subject=[Intro_Python]%20Source%20Han%20Sans)
+#### Course Instructor: [Graciela Carrillo](mailto:graciela.carrillo@kaplan.com?subject=[Build-your-own-app]%20Source%20Han%20Sans)
+#### Module Coordinator: [Dr. Molly Huq](mailto:graciela.carrillo@kaplan.com?subject=[Build-your-own-app]%20Source%20Han%20Sans)
 
 <br><br>
  
