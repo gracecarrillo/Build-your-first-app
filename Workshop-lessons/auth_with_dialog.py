@@ -13,7 +13,6 @@ Screen:
         text: 'Basic Authentication App'
         font_style: 'H2'
         pos_hint: {'center_x': 0.6, 'center_y': 0.8}
-
     MDTextField:
         id: text
         hint_text: 'Enter you password'
@@ -24,19 +23,16 @@ Screen:
         width: 300
         icon_right: "account-search"
         required: True
-
     MDRectangleFlatButton:
         text: 'Submit'
         pos_hint: {'center_x': 0.5, 'center_y': 0.3}
         on_press:
             app.auth()
-    
     MDLabel:
         text: ''
         id: show
         pos_hint: {'center_x': 1.0, 'center_y': 0.2}
 '''
-
 
 class Main(MDApp):
     in_class = ObjectProperty(None)
@@ -45,7 +41,7 @@ class Main(MDApp):
         return Builder.load_string(kv)
 
     def auth(self):
-        if self.root.in_class.text == 'root':
+        if self.root.in_class.text == 'admin':
             # label = self.root.ids.show
             # label.text = "Sucess"
             self.dialog = MDDialog(title='Password check',
@@ -57,7 +53,12 @@ class Main(MDApp):
         else:
             # label = self.root.ids.show
             # label.text = "Fail"
-            self.dialog.text = 'Fail !'
+            self.dialog = MDDialog(title='Password check',
+                        text="Fail !", size_hint=(0.8, 1),
+                        buttons=[MDFlatButton(text='Close', on_release=self.close_dialog),
+                                MDFlatButton(text='More')]
+            )
+            #self.dialog.text = 'Fail !'
             self.dialog.open()
 
     def close_dialog(self, obj):

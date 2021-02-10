@@ -11,7 +11,7 @@ class Main(MDApp):
         return Builder.load_file('basic_auth.kv')
 
     def auth(self):
-        if self.root.in_class.text == 'root':
+        if self.root.in_class.text == 'admin':
             label = self.root.ids.show
             label.text = 'Sucess'
         else:

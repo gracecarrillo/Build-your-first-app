@@ -53,7 +53,7 @@ Then create the `requirements.txt` by running this command:
 pip freeze -l > requirements.txt 
 ```
 
-4. Follow the step by step and let’s code!
+4. Follow the step by step and let’s code! Go into the folder `Workshop_lessons` and start with Lesson 1.
 
 Before we start, we need to understand some points here:
 
