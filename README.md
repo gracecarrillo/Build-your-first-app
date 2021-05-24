@@ -20,10 +20,6 @@ The Android universe is mainly build using Java and Kotlin, but in recent times,
 2. To open the folder with the tutorial, you will need an IDE (Integrated Development Environment). There are many popular IDE environments for development. For this course, I will be using Android Studio. Follow this link to [Install Android Studio](https://developer.android.com/studio/). If you are using a Mac, there are a few extra steps you will need to take. Follow [this instructions to set up Android Studio development in your Mac](https://flutter.dev/docs/get-started/install/macos#ios-setup). 
 
 3. Download this repo as a zip file and unzip it.
-```
-python -m venv app
-app\Scripts\activate
-```
 
 5. We are ready to code!
 
