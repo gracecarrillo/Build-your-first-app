@@ -1,4 +1,4 @@
-# Building Android Apps With Flutter
+# Building Apps With Flutter
 
 # [University of Glasgow - Glasgow International College](www.glasgow.ac.uk/gic) 
 ## [GIC PM-617 Module: Practical Training for Science and Engineering Research](https://pathways.kaplaninternational.com/course/view.php?id=2879)
@@ -9,7 +9,7 @@ This is a repository for materials used for a module on quantitative research re
 
 ## Intro 
 
-The Android universe is mainly build using Java and Kotlin, but in recent times, Flutter by Google has become very popular. With Flutter, you can design beautiful apps with minimal effort. This workshop introduces you to Flutter widgets—prebuilt elements that make it easy to create elegant and interactive user interfaces for iOS and Android.We'll build a personal business card app using Container, Row, Column, and Icon widgets. Along the way, we'll see how to split your code into multiple classes for maximum extensibility, use widgets to manipulate assets like images, and incorporate custom fonts and color schemes into your design. Plus, you'll learn how to use the Card and ListTile widgets to organise data and maximise the readability and accessibility of your app.
+The Android universe is mainly build using Java and Kotlin, but in recent times, Flutter by Google has become very popular. With Flutter, you can design beautiful apps with minimal effort. This workshop introduces you to Flutter widgets—prebuilt elements that make it easy to create elegant and interactive user interfaces for iOS and Android. We'll build a personal business card app using Container, Row, Column, and Icon widgets. Along the way, we'll see how to split your code into multiple classes for maximum extensibility, use widgets to manipulate assets like images, and incorporate custom fonts and color schemes into your design. Plus, you'll learn how to use the Card and ListTile widgets to organise data and maximise the readability and accessibility of your app.
 
 </p>
 
